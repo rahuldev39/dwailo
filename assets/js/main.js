@@ -1,7 +1,4 @@
-/*!
- * amaretti v0.0.1 (http://foxythemes.net/themes/amaretti)
- * Copyright 2014-2015 Foxy Themes all rights reserved 
- */
+
 function FastClick(a, b) {
     "use strict";
 
