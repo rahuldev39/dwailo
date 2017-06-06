@@ -597,6 +597,92 @@ div.section>div>input {
     border-color: rgba(255, 182, 16, 0.74);
     box-shadow: 0px 0px 0px 3px rgba(255, 182, 16, 0.39);
 }
+.steps-img img {
+    max-width: 100px;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(21, 21, 21, 0.03);
+    padding: 13px;
+    border: 1px solid rgba(117, 117, 117, 0.03);
+}
+.circle-wrap>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.steps-text {
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+    color: #141d2d;
+}
+.how-section
+{
+  background-image: url(../img/how_bg.png);
+  background-size: cover;
+}
+@media screen and (min-width: 991px)
+{
+.circle-wrap {
+    display: table;
+    height: 80px;
+}
+.dots-line {
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: #141d2d;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+.circle-filled {
+    width: 25px;
+    height: 25px;
+    background-color: #ffdc8e;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #ffb610;
+}
+}
+@media screen and (max-width: 991px)
+{
+  .steps-img img {
+      max-width: 80px;
+      margin-top: 20px;
+  }
+.circle-wrap {
+    display: table;
+    height: 130px;
+}
+.dots-line {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background-color: #141d2d;
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 12px;
+}
+.circle-filled {
+  width: 25px;
+  height: 25px;
+  background-color: #ffdc8e;
+    border-radius: 15px;
+    display: inline-block;
+    border: 7px solid #ffb610;
+}
+.steps-text {
+    line-height: 120px;
+    font-size: 15px;
+    text-align: left;
+}
+.steps-text>div {
+    line-height: 27px !important;
+    display: inline-block;
+}
+}
 @media (max-width:1090px) {
     .product_box {
         width: 33.3%
