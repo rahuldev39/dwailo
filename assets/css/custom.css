@@ -573,9 +573,8 @@ div.section>div>input {
     margin: 0px 6px;
     padding: 2px;
 }
-.grand-total
-{
-    background-color: rgba(70, 108, 180, 0.08);
+.grand-total {
+    background-color: rgba(255, 182, 16, 0.26);
     color: #141d2d;
 }
 .table-bordered>tbody>tr>th {
@@ -620,6 +619,30 @@ div.section>div>input {
 {
   background-image: url(../img/how_bg.png);
   background-size: cover;
+}
+.checkout-box .table {
+    margin-top: 33px;
+    margin-bottom: 0px;
+}
+.grand-total strong {
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.grand-total span {
+    color: #466cb4;
+    font-weight: 600;
+    font-size: 15px;
+}
+.checkout-box .table>tbody>tr>td
+{
+  padding: 9px 10px;
+  border-top: 1px solid #f7f7f7;
+}
+.checkout-box td label {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 600;
 }
 @media screen and (min-width: 991px)
 {
