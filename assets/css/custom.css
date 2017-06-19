@@ -2,7 +2,9 @@
     margin-bottom: 10px
 }
 
-.nav-icon {}
+.nav-icon {
+
+}
 
 .navbar-brand span {
     font-size: 49px;
@@ -347,22 +349,23 @@
 }
 
 .prdct_details {
-    border: 1px solid rgb(232, 232, 232);
-    padding: 0px;
+    border: 1px solid rgb(220, 227, 241);
+    padding: 5px;
     margin-bottom: 15px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 7px 0px #e2e0e0;
+    box-shadow: 0px 0px 6px 0px #e0e0e0;
 }
 .prdct_details:hover{
   box-shadow: none
 
 }
 .sku-actual, .sku-mrp {
-    color: #878686;
+    color: #141d2d;
     text-decoration: line-through;
-    font-weight: 100;
+    font-weight: 600;
+    font-size: 11px;
 }
 .prdct_title {
     margin: 10px 0px;
@@ -370,10 +373,26 @@
 }
 
 .prdct_price {
-    margin-bottom: 15px;
-    font-weight: 400;
+    margin-bottom: 7px;
+    font-weight: 600;
     font-size: 14px;
     color: #141d2d;
+    background-color: #ffb610;
+    border-radius: 0px;
+    padding: 3px 0px;
+    position: absolute;
+    left: -2px;
+}
+.prdct_price::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 8px solid transparent;
+    border-bottom-color: #b37c00;
+    position: absolute;
+    left: 3px;
+    transform: rotate(45deg);
+    top: 18px;
 }
 
 .product_box {
@@ -390,8 +409,9 @@
     width: 25%
 }
 
-.prdct_image img {
-    width: 100%
+.product_box {
+    width: 25%;
+    position: relative;
 }
 
 .page-title h3 {
@@ -510,11 +530,22 @@ div.section>div>input {
     border: 1px solid orange;
 }
 .btn-add-cart {
+    background-color: rgba(255, 182, 16, 0.06);
+    color: #141d2d;
+    font-weight: 600;
+    border: 1px solid rgba(20, 29, 45, 0.09);
+    padding: 0px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #141d2d;
-    color: white;
+    align-items: center;
+    padding-left: 15px;
+}
+.btn-add-cart i {
+    margin-left: 9px;
+    font-size: 11px;
+    padding: 8px 14px;
+    font-size: 16px;
+    border-left: 1px solid #e9e6df;
 }
 .btn-add-cart:hover
 {
@@ -649,18 +680,23 @@ div.section>div>input {
 }
 .cart-stepper .step {
     flex: 1;
-    font-size: 14px;
-    border-bottom: 5px solid #d2d2d2;
+    font-size: 13px;
+    border: 1px solid #d0d0d0;
     margin-right: 7px;
-    color: #b5b5b5;
-    font-weight: 600;
-    padding-bottom: 4px;
+    color: #a0a0a0;
+    font-weight: 500;
     margin-bottom: 17px;
+    border-radius: 20px;
+    background-color: rgba(101, 124, 165, 0.12);
+    padding: 7px 18px;
+    text-align: center;
 }
 
 .cart-stepper .step.active {
-    border-color: #ffb610;
+    border-color: #d69707;
     color: #141d2d;
+    background-color: #ffb610;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 991px)
