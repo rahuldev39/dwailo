@@ -530,10 +530,10 @@ div.section>div>input {
     border: 1px solid orange;
 }
 .btn-add-cart {
-    background-color: rgba(255, 182, 16, 0.06);
+    background-color: rgb(255, 248, 232);
     color: #141d2d;
     font-weight: 600;
-    border: 1px solid rgba(20, 29, 45, 0.09);
+    border: 1px solid rgba(255, 182, 16, 0.27);
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -545,7 +545,7 @@ div.section>div>input {
     font-size: 11px;
     padding: 8px 14px;
     font-size: 16px;
-    border-left: 1px solid #e9e6df;
+    border-left: 1px solid #ffe6ad;
 }
 .btn-add-cart:hover
 {
@@ -698,7 +698,41 @@ div.section>div>input {
     background-color: #ffb610;
     font-weight: 600;
 }
-
+.prdct_image
+{
+  position: relative;
+}
+.prdct_wish {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: none;
+}
+.prdct_details:hover .prdct_wish
+{
+  display: block;
+}
+.cart-btn
+{
+  font-size: 28px !important;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, .8) !important;
+    position: relative;
+}
+.cart-counter {
+    font-size: 9px;
+    width: 16px;
+    height: 16px;
+    background-color: #ec2900;
+    display: inline-block;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 9px;
+}
 @media screen and (min-width: 991px)
 {
 .circle-wrap {
