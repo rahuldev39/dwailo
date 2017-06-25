@@ -3080,14 +3080,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #f17979;
-    border-color: #f17979
+    background-color: #3962af;
+    border-color: #4e79cc;
 }
 
 .btn-primary.active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
-    background-color: #ec4b4b;
-    border-color: #ec4b4b
+    background-color: #2e549c;
+    border-color: #23488e;
 }
 
 .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
@@ -10161,7 +10161,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 }
 
 @media (max-width:767px) {
-    
+
     .am-error .error-number {
         font-size: 90px;
         margin-bottom: 10px;

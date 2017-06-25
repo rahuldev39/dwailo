@@ -868,7 +868,87 @@ div.section>div>input {
     border: 1px solid #e85030;
     display: none;
 }
+.doctor-view
+{
+  flex: 1
+}
+.doctor-block {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    box-shadow: 0px 0px 4px #d8d8d8;
+    margin-bottom: 15px;
+}
+.doc-img {
+    width: 95px;
+    padding: 5px;
+    border: 1px solid #efefef;
+    background-color: white;
+}
+.doc-name {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.doc-specialties a {
+    background-color: rgba(255, 182, 16, 0.13);
+    padding: 0px 6px;
+    border-radius: 2px;
+    display: inline-block;
+    border: 1px solid rgba(255, 182, 16, 0.31);
+    font-size: 11px;
+    color: #141d2d;
+}
+.doc-qualifications {
+    color: #141d2d;
+    margin-bottom: 5px;
+}
+.doc-exp-years{
 
+}
+.doc-feedback , .doc-feedback i {
+    font-size: 22px;
+    color: #04ab31;
+    margin-right: 4px;
+}
+.doc-detail-icon {
+    margin-right: 5px;
+    color: #555555;
+    font-size: 18px;
+}
+.patient_experience_score {
+    margin-bottom: 15px;
+}
+.locality {
+    margin-bottom: 5px;
+}
+.search-doc-container {
+    background-image: url(../img/slide_bg.png);
+    padding: 30px 15px;
+}
+.search-doc-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 8px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+}
+.search-doc-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doc-location
+{
+  flex-basis: 300px;
+  margin-right: 5px
+}
+.doc-keywords
+{
+  flex: 1;
+  margin-right: 5px
+}
 @media screen and (min-width: 991px)
 {
 .circle-wrap {
@@ -939,7 +1019,14 @@ div.section>div>input {
         max-width: 85px;
     }
 }
+@media (max-width:1045px)
+{
+  .search-bar
+  {
+    display: none;
+  }
 
+}
 @media (max-width:992px) {
     .product-block {
         width: 33.3%;
@@ -957,6 +1044,24 @@ div.section>div>input {
     .product_box {
         width: 50%
     }
+    .search-doc-form {
+    flex-direction: column;
+    align-items: inherit;
+}
+    .doc-location {
+    flex-basis: inherit;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+.doc-keywords {
+flex: 1;
+margin-right: 0px;
+margin-bottom: 10px;
+}
+.submit-btn .btn{
+  width: 100%
+
+}
 }
 
 @media (max-width:450px) {
