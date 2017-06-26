@@ -904,9 +904,7 @@ div.section>div>input {
     color: #141d2d;
     margin-bottom: 5px;
 }
-.doc-exp-years{
 
-}
 .doc-feedback , .doc-feedback i {
     font-size: 22px;
     color: #04ab31;
@@ -954,6 +952,28 @@ div.section>div>input {
     background-color: #ffdb88;
     border: 1px solid #f9d584;
     color: #656565;
+}
+.nav-login-box
+{
+        min-width: 260px;
+}
+.nav-login-inner {
+    padding: 15px 15px;
+}
+.nav-login-inner h4 {
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #141d2d;
+    margin-bottom: 7px;
+}
+.account-btns .btn {
+    width: 49%;
+}
+.user-icon {
+    font-size: 30px;
+    vertical-align: middle;
+    color: #8a8a8a;
 }
 @media screen and (min-width: 991px)
 {
