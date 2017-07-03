@@ -3032,12 +3032,12 @@ select[multiple].input-lg, textarea.input-lg {
     touch-action: manipulation;
     cursor: pointer;
     border: 1px solid transparent;
-    padding: 8px 12px;
+    padding: 7px 12px;
     font-size: 13px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
@@ -7315,17 +7315,16 @@ button:focus {
 .am-left-sidebar .sidebar-elements>li>ul {
     display: none;
     position: fixed;
-    left: 100px;
+    left: 200px;
     top: 0;
     height: 100%;
-    background-color: #484747;
+    background-color: #131c2b;
     z-index: 1031;
     padding: 0;
     table-layout: fixed;
     list-style: none;
-    width: 280px
+    width: 280px;
 }
-
 .am-left-sidebar .sidebar-elements>li>ul.visible {
     display: table
 }
@@ -7374,10 +7373,11 @@ button:focus {
 
 .am-left-sidebar .sidebar-elements>li>ul>.nav-items .am-scroller .content>ul>li>a {
     padding: 11px 25px;
-    color: #b3b3b3;
+    color: #d0d0d0;
     font-size: 13px;
     display: block;
-    font-weight: 300
+    font-weight: 300;
+    text-shadow: none;
 }
 
 .am-left-sidebar .sidebar-elements>li>ul>.nav-items .am-scroller .content>ul>li>a .label {
@@ -7388,8 +7388,8 @@ button:focus {
 }
 
 .am-left-sidebar .sidebar-elements>li>ul>.nav-items .am-scroller .content>ul>li>a:hover {
-    background-color: #424141;
-    color: #fff
+    background-color: #111927;
+    color: #fff;
 }
 
 .am-left-sidebar .sidebar-elements>li>ul>.nav-items .am-scroller .content>ul li.active>a {
@@ -10920,9 +10920,9 @@ pre {
 }
 
 .btn-default, .btn-default.focus, .btn-default:focus {
-    color: #555;
+    color: #141d2d;
     background-color: #fff;
-    border-color: #dedede
+    border-color: #dedede;
 }
 
 .btn-default:hover {

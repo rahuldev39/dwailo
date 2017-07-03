@@ -1218,3 +1218,117 @@ margin-bottom: 10px;
 .mar-t30 {
     margin-top: 30px;
 }
+/*###############--------User Admin-----###################*/
+.user-admin{
+  background-color: white
+
+}
+.user-admin .brand-name {
+    font-size: 25px;
+    margin-top: 13px;
+    font-weight: lighter;
+    margin-bottom: -7px;
+}
+.user-admin .navbar-brand span {
+    font-size: 25px;
+}
+.user-admin .am-top-header .navbar-header .navbar-brand {
+    display: block;
+    line-height: initial;
+}
+.user-admin .nav-icon i {
+    font-size: 22px;
+    margin-right: 4px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+@media (max-width: 767px)
+{
+.user-admin .navbar-brand
+{
+  display: none !important;
+}
+}
+@media (min-width: 767px)
+{
+  .user-admin .am-left-sidebar {
+      width: 200px;
+  }
+  .user-admin .am-content {
+      margin-left: 200px;
+  }
+  .user-admin .am-top-header .navbar-header .navbar-brand {
+      width: 200px;
+  }
+  .user-admin .am-left-sidebar .sidebar-elements>li>a span {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  .user-admin .nav-icon img {
+      width: 32px;
+  }
+  .user-admin .am-left-sidebar .sidebar-elements>li>a {
+      padding: 16px 10px;
+      text-align: left;
+  }
+  .user-admin .am-top-header .navbar-collapse .am-user-nav>li.dropdown>a .user-name {
+      margin-left: 8px;
+      display: inline-block;
+  }
+
+}
+
+
+.form-container .form-panel-title {
+    margin: 0px;
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: 500 !important;
+    color: #fffafa;
+    line-height: 24px;
+}
+.form-panel-title-box {
+    border-radius: 4px 4px 0px 0px;
+    padding: 9px 11px;
+    position: relative;
+    background-image: -moz-linear-gradient(#f7f7f7,#ededed);
+    background-image: -o-linear-gradient(#f7f7f7,#ededed);
+    border: 1px solid #ccc !important;
+    background-color: #466cb4;
+    display: flex;
+    justify-content: space-between;
+}
+.form-panel-title-box .add-btn {
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+
+.form-container .form-box {
+    background-color: #FBFBFB;
+    padding: 16px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+}
+.alert-icon>.message {
+    display: table-cell;
+    padding: 9px;
+    color: #555;
+    border: 1px solid #d4d4d4;
+    border-left-width: 0;
+    padding-left: 22px;
+}
+.alert-icon.alert-dismissible .close {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    color: #555;
+    text-shadow: 0 1px 0 #555;
+}
+.h4, h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.indent-label {
+    visibility: hidden;
+}
