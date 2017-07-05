@@ -1360,3 +1360,62 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     border-bottom: 2px solid rgb(182, 203, 243) !important;
     padding: 9px 9px !important;
 }
+.modal .modal-content .modal-body {
+   padding: 20px 20px;
+}
+.kl-radio {
+    display: block;
+    line-height: 22px;
+    margin: 0;
+    padding: 7px 0;
+}
+.kl-radio.inline, .kl-radio.inline {
+    display: inline-block;
+}
+.kl-radio label {
+    margin-right: 10px;
+}
+.kl-radio input[type=checkbox], .kl-radio input[type=radio], .kl-radio input[type=checkbox], .kl-radio input[type=radio] {
+    margin: 0;
+    display: none;
+    width: 22px;
+}
+.kl-radio input[type=checkbox]+span, .kl-radio input[type=radio]+span, .kl-radio input[type=checkbox]+span, .kl-radio input[type=radio]+span {
+    padding-left: 0;
+}
+
+.kl-radio span {
+    font-weight: lighter;
+}
+.kl-radio input[type=checkbox]+span:before, .kl-radio input[type=radio]+span:before, .kl-radio input[type=checkbox]+span:before, .kl-radio input[type=radio]+span:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    border: 2px solid #D6D6D6;
+    margin-right: 5px;
+    font-size: 18px;
+    font-family: 'Stroke 7';
+    font-weight: 400;
+    line-height: 19px;
+    vertical-align: bottom;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+.kl-radio input[type=radio]+span:before, .kl-radio input[type=radio]+span:before {
+    border-radius: 50%;
+    font-family: 'Stroke 7';
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.kl-radio input[type=radio]:checked+span:before, .kl-radio input[type=radio]:checked+span:before {
+    content: "\e6ce";
+}
+
+.kl-radio input[type=checkbox]:checked+span:before, .kl-radio input[type=radio]:checked+span:before, .kl-radio input[type=checkbox]:checked+span:before, .kl-radio input[type=radio]:checked+span:before {
+
+    color: #3F7EE4;
+    border-color: #3F7EE4;
+}

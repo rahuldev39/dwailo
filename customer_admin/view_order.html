@@ -261,7 +261,7 @@
                         <div class="section-padder">
 
                           <div class="page-title">
-                                    <h3>View Customers</h3>
+                                    <h3>View Order</h3>
                                   </div>
 
                           <div role="alert" class="alert alert-primary alert-icon alert-dismissible">
@@ -272,41 +272,134 @@
                     </div>
                   </div>
 
-                          <div class="form-container mar-b15">
-                            <div class="form-panel-title-box">
-                                <h4 class="form-panel-title">Search Customer With Phone or Name or Id</h4>
-                                <button class="btn btn-default btn-sm add-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i> Add New Customer</button>
-                            </div>
 
-                   <div class="form-box">
-                     <form>
-                       <div class="row class">
-                         <div class="col-md-6">
-                             <div class="form-group">
-                                 <label>Search Name Or Phone</label>
-                                 <input type="text" placeholder="Name Or Phone no." class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Search By Id</label>
-                                 <input type="text" placeholder="Please Enter Id" class="form-control">
-                               </div>
-                           </div>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="form-container mar-b15">
+                        <div class="form-panel-title-box">
+                            <h4 class="form-panel-title">Search Order With Phone or Id</h4>
+                            <button class="btn btn-default btn-sm add-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i> Add New Customer</button>
+                        </div>
 
-                           <div class="col-md-2">
-                             <div class="form-group">
-                               <label class="indent-label screen-only">seach btn</label>
-                                <button class="btn btn-primary btn-block">Search</button>
-                               </div>
+               <div class="form-box">
+                 <form>
+                   <div class="row class">
+                     <div class="col-md-5">
+                         <div class="form-group">
+                             <label>Search Phone</label>
+                             <input type="text" placeholder="Name Or Phone no." class="form-control">
                            </div>
-
                        </div>
-                     </form>
-                     <small class="text-muted">Total 3045 Customers</small>
-                   </div>
+                       <div class="col-md-4">
+                         <div class="form-group">
+                             <label>Search By Id</label>
+                             <input type="text" placeholder="Please Enter Id" class="form-control">
+                           </div>
+                       </div>
+
+                       <div class="col-md-3">
+                         <div class="form-group">
+                           <label class="indent-label screen-only">seach btn</label>
+                            <button class="btn btn-primary btn-block">Search</button>
+                           </div>
+                       </div>
 
                    </div>
+                 </form>
+                 <small class="text-muted">Total 3045 Customers</small>
+               </div>
+
+               </div>
+            </div>
+
+                    <div class="col-md-5">
+                      <div class="form-container mar-b15">
+                        <div class="form-panel-title-box">
+                            <h4 class="form-panel-title">Search Order</h4>
+                        </div>
+
+               <div class="form-box">
+                 <form>
+                   <div class="row class">
+                     <div class="col-md-6">
+                         <div class="form-group">
+                             <label>From This Date</label>
+                             <input type="date" placeholder="Name Or Phone no." class="form-control">
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                         <div class="form-group">
+                             <label>To This date</label>
+                             <input type="date" placeholder="Please Enter Id" class="form-control">
+                           </div>
+                       </div>
+
+                   </div>
+
+                   <div class="form-group">
+                     <div class="kl-radio inline">
+                       <label>
+                         <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Divrd</span>
+                           </label>
+                       </div>
+                       <div class="kl-radio inline">
+                         <label>
+                           <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Dispch</span>
+                             </label>
+                         </div>
+
+                         <div class="kl-radio inline">
+                           <label>
+                             <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Cancel</span>
+                               </label>
+                           </div>
+
+                             <div class="kl-radio inline">
+                               <label>
+                                 <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Ready</span>
+                                   </label>
+                               </div>
+
+                               <div class="kl-radio inline">
+                                 <label>
+                                   <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Cnfrmd</span>
+                                     </label>
+                                 </div>
+
+                                 <div class="kl-radio inline">
+                                   <label>
+                                     <input name="pro_bono_gratis" type="radio" ng-value="true" ng-model="caseController.Case.PrimaryReportDetail.IsProBonoGratis"><span class="radio-btn">Purchased</span>
+                                       </label>
+                                   </div>
+                   </div>
+
+                   <div class="row class">
+                     <div class="col-md-5">
+                         <div class="form-group">
+                             <label>By</label>
+                             <select class="form-control" name="">
+                               <option>-Select Boy-</option>
+                             </select>
+                           </div>
+                       </div>
+
+                       <div class="col-md-3">
+                         <div class="form-group">
+                           <label class="indent-label screen-only">seach btn</label>
+                            <button class="btn btn-primary btn-block">Search</button>
+                           </div>
+                       </div>
+
+                   </div>
+                 </form>
+
+               </div>
+
+               </div>
+                    </div>
+                  </div>
+
+
 
 
                    <div class="table-responsive">
