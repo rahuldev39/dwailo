@@ -1419,3 +1419,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     color: #3F7EE4;
     border-color: #3F7EE4;
 }
+.desabled {
+    background-color: #eaeaea;
+    color: #a0a0a0;
+    cursor: not-allowed;
+}
+.btn-danger, .btn-danger.focus, .btn-danger:focus {
+    background-color: rgba(241, 108, 103, 0.95);
+    border-color: #e15d58;
+    color: #fff;
+}
