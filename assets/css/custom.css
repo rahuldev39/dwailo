@@ -312,12 +312,13 @@
   }
 
   .category_box ul li.active a {
-      display: block;
-      padding: 8px 13px;
-      background-color: rgb(255, 182, 16);
-      color: #3c3c3c;
-      font-weight: 600;
-  }
+    display: block;
+    padding: 8px 13px;
+    background-color: rgb(245, 245, 245);
+    color: #3c3c3c;
+    font-weight: 600;
+    border-left: 2px solid #ffb610;
+}
 
 .category_box ul li:last-child a {
     border-bottom: 0px;
@@ -349,51 +350,54 @@
 }
 
 .prdct_details {
-    border: 1px solid rgb(220, 227, 241);
-    padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 6px 0px #e0e0e0;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 8px;
 }
 .prdct_details:hover{
   box-shadow: none
 
 }
 .sku-actual, .sku-mrp {
-    color: #141d2d;
+    color: #adadad;
     text-decoration: line-through;
     font-weight: 600;
     font-size: 11px;
+    display: block;
+}
+.p-footer
+{
+  display: flex;
+  justify-content: space-between;
 }
 .prdct_title {
-    margin: 10px 0px;
     font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-bottom: 6px;
 }
-
+.prdct_title::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    left: 0px;
+    top: 100%;
+    height: 2px;
+    background-color: #ffb610;
+}
 .prdct_price {
-    margin-bottom: 7px;
+    margin-bottom: 2px;
     font-weight: 600;
     font-size: 14px;
     color: #141d2d;
-    background-color: #ffb610;
     border-radius: 0px;
     padding: 3px 0px;
-    position: absolute;
-    left: -2px;
 }
-.prdct_price::after {
-    content: "";
-    width: 0px;
-    height: 0px;
-    border: 8px solid transparent;
-    border-bottom-color: #b37c00;
-    position: absolute;
-    left: 3px;
-    transform: rotate(45deg);
-    top: 18px;
-}
+
 
 .product_box {
     padding-left: 8px;
@@ -530,32 +534,27 @@ div.section>div>input {
     border: 1px solid orange;
 }
 .btn-add-cart {
-    background-color: rgb(255, 248, 232);
+    background-color: rgb(255, 255, 255);
     color: #141d2d;
     font-weight: 600;
-    border: 1px solid rgba(255, 182, 16, 0.27);
-    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
+    margin: 0px 5px;
+    padding: 13px;
 }
 .btn-add-cart i {
-    margin-left: 9px;
     font-size: 11px;
-    padding: 8px 14px;
-    font-size: 16px;
-    border-left: 1px solid #ffe6ad;
+    font-size: 13px;
 }
 .btn-add-cart:hover
 {
   background-color: #ffb610;
     color: #fff;
 }
-.prdct_title, .prdct_price
-{
-  padding-left: 10px;
-  padding-right: 10px;
+.prdct_title, .prdct_price {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .cart-list {
 
@@ -698,19 +697,37 @@ div.section>div>input {
     background-color: #ffb610;
     font-weight: 600;
 }
-.prdct_image
-{
-  position: relative;
+.prdct_image {
+    position: relative;
+    background-color: black;
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
 }
 .prdct_wish {
+    display: flex;
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     width: 100%;
-    display: none;
+    justify-content: center;
+    opacity: 0;
+    transition: all 300ms ease-in-out
 }
-.prdct_details:hover .prdct_wish
+.prdct_image:hover .prdct_wish
 {
-  display: block;
+  bottom: 20px;
+  opacity: 1;
+}
+.prdct_image img {
+    transition: all 300ms ease-in-out;
+    width: 100%;
+}
+.prdct_image:hover img
+{
+  opacity: .7;
+  transform: scale(1.05);
+}
+.prdct_details:hover .prdct_wish {
+    display: flex;
 }
 .cart-btn {
     font-size: 28px !important;
@@ -1428,4 +1445,204 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     background-color: rgba(241, 108, 103, 0.95);
     border-color: #e15d58;
     color: #fff;
+}
+.filter-calender {
+    display: flex;
+    background-color: #ecf0f1;
+    padding: 0px 8px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+}
+
+.filter-calender .checkbox {
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+.filter-calender .checkbox label {
+    font-weight: 600;
+    font-size: 12px;
+}
+.filter-calender .checkbox input[type=checkbox] {
+    margin-top: 3px;
+}
+.am-white-header .page-head {
+    background-color: #f2f5fb;
+    border-bottom: 1px solid rgba(20, 29, 45, 0.15);
+    border-top: 1px solid rgba(20, 29, 45, 0.08);
+    padding: 28px 35px;
+}
+.am-white-header .page-head h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: #141d2d;
+}
+.d-block {
+    min-height: 100px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.d-head h4 {
+    margin: 0px;
+    padding: 10px 12px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0px;
+    background-color: #466cb4;
+background: #466cb4;
+background: -moz-linear-gradient(top, #466cb4 0%, #466cb4 44%, #2f4e8a 100%);
+background: -webkit-linear-gradient(top, #466cb4 0%,#466cb4 44%,#2f4e8a 100%);
+background: linear-gradient(to bottom, #466cb4 0%,#466cb4 44%,#2f4e8a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', endColorstr='#2f4e8a',GradientType=0 );
+}
+.delete-sm {
+    padding: 0px;
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.top-block {
+    max-height: 253px;
+    overflow: auto;
+}
+
+.calender_block {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 24px;
+    border: 1px solid rgb(218, 218, 218);
+    position: relative;
+    margin-bottom: 2em;
+}
+.calender_block h5 {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0px;
+}
+.ul_color {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}.page-wrapper ul li {
+    margin-bottom: 5px;
+}
+.calender_block_top
+{
+  margin-bottom: 10px
+}
+.ul_color li {
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    padding: 1px 7px;
+    margin-right: 7px;
+}
+.ul_color li div {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 1px;
+}
+.calender_block:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    -webkit-transform: rotate(45deg);
+    bottom: -11px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+}
+.calender_block:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    -webkit-transform: rotate(45deg);
+    bottom: -11px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+}
+.t_block_inner {
+    margin-bottom: 1em;
+}
+.t_block_inner h5 {
+    background-color: rgb(70, 108, 180);
+    color: white;
+    padding: 6px 17px;
+    margin: 0px;
+    margin-bottom: 9px;
+}
+.page-wrapper .page-content h5 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.t_block_inner ul li {
+    display: inline-block;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 0px 0px;
+}
+.t_block_inner ul li {
+    margin-bottom: 5px !important;
+}
+.t_block_inner ul li .checkbox {
+    padding: 5px 10px;
+    margin: 0px;
+    background-color: rgb(250, 250, 250);
+}
+.t_block_inner ul li .checkbox label {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Occp_color {
+    color: #F00;
+}
+.t_block_inner ul {
+    list-style-type: none;
+    padding: 0px 15px;
+    margin: 0px;
+}
+.time_block {
+    background-color: white;
+    border: 1px solid rgb(218, 218, 218);
+}
+.input-group-btn .btn {
+    height: 33px;
+}
+.t_block_inner input[type=radio] {
+
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.avail_color {
+    color: #18b356;
+}
+@media (min-width: 768px)
+{
+.book-appointment .modal-dialog {
+    width: 635px;
+    margin: 30px auto;
+}
+.product-modal .modal-dialog {
+    width: 749px;
+    margin: 30px auto;
+}
 }
