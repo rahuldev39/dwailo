@@ -266,24 +266,20 @@
 .category_box {
     padding: 0px;
     margin-bottom: 0px;
-    border-bottom: 1px solid gainsboro;
     background-color: white;
 }
 
 .category_box h4 {
     text-align: left;
     font-size: 14px;
-    color: #565656;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
     font-weight: 600;
 }
 .filter-title {
     padding: 10px;
     font-size: 16px;
     margin-top: 0px;
-    margin-bottom: 0px;
-    border-bottom: 1px solid gainsboro;
     color: #141d2d;
     font-weight: 400;
 }
@@ -307,13 +303,10 @@
 
   .category_box ul li a {
       display: block;
-      padding: 8px 13px;
-
+      padding: 8px 8px;
   }
 
   .category_box ul li.active a {
-    display: block;
-    padding: 8px 13px;
     background-color: rgb(245, 245, 245);
     color: #3c3c3c;
     font-weight: 600;
@@ -1645,4 +1638,59 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     width: 749px;
     margin: 30px auto;
 }
+}
+
+
+.filter-box
+{
+
+}
+.filter-box .panel-group.accordion .panel .panel-heading a {
+    padding: 8px 12px;
+    display: block;
+    color: #141d2d;
+    font-weight: 300;
+    border: 1px solid #eaeaea;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fbfbfb;
+    border-radius: 4px 4px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-box .panel-group.accordion .panel .panel-collapse .panel-body {
+    padding: 0 8px 8px 8px;
+    border-top: 0;
+    max-height: 270px;
+    overflow: auto;
+}
+.filter-box .panel-body {
+    border: 1px solid rgb(234, 234, 234);
+}
+.filter-box .panel-group.accordion .panel .panel-heading a .icon {
+
+    font-size: 20px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+    font-weight: 700;
+    color: #000000;
+}
+.filter-box ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.filter-box ::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.filter-box ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #ffb610;
 }
