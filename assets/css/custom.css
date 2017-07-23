@@ -527,18 +527,17 @@ div.section>div>input {
     border: 1px solid orange;
 }
 .btn-add-cart {
-    background-color: rgb(255, 255, 255);
-    color: #141d2d;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 5px;
-    padding: 13px;
+ background-color: #ffffff;
+ color: rgb(20, 29, 45);
+ font-weight: 600;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0px 5px;
+ padding: 13px;
 }
 .btn-add-cart i {
-    font-size: 11px;
-    font-size: 13px;
+    font-size: 16px;
 }
 .btn-add-cart:hover
 {
