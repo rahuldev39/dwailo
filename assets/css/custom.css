@@ -1693,3 +1693,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #ffb610;
 }
+.medicine-table td img {
+    border: 2px solid #dadada;
+}
