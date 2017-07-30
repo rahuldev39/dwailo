@@ -1955,3 +1955,76 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     margin: 0px 0;
     border-radius: 0;
 }
+.admin-login
+{
+
+}
+.image-block {
+    height: 100vh !important;
+    background-image: url(../img/bg-imag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.admin-login .form-block {
+    background: #fff;
+    background-image: url(../img/medi-bg.jpg);
+    height: 100vh !important;
+    display: table;
+    width: 100%;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.admin-login .login-main > div {
+    padding: 0px;
+}
+.admin-login .form-block-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 0px;
+    text-align: left;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.admin-login .form-block h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #6E6E6E;
+}
+.bgimage-caption {
+    background-color: rgba(60, 91, 150, 0.84);
+    color: #FDFDFD;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0px;
+}
+.login-main .form-block .btn {
+    height: 41px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.admin-login .form-block .input-group-addon i {
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+    color: #466cb4;
+    text-shadow: 0px 2px 1px #e2e2e2;
+}
+.admin-login .login-main .form-block .form-control {
+    border: 2px solid rgba(70, 108, 180, 0.11);
+}
+.admin-login .login-main .input-group-addon {
+    background-color: rgb(234, 239, 247);
+    border: 1px solid rgba(70, 108, 180, 0);
+    color: #656565;
+}
+@media (min-width: 992px)
+{
+.admin-login .login-block, .admin-login .reg-block {
+    max-width: 400px;
+    margin: 0 auto;
+}
+}
