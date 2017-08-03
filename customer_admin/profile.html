@@ -260,121 +260,199 @@
                     <section class="bg-white">
                         <div class="section-padder">
 
-                          <div class="page-title">
-                                    <h3>View Customers</h3>
-                                  </div>
+                          <div class="row profile-box">
+          <div class="col-sm-3">
+              <!--left col-->
+              <div class="profile-img">
+                <img src="../assets/img/avatar8.jpg" alt="">
+              </div>
+              <ul class="list-group">
+                  <li class="list-group-item text-muted" contenteditable="false">Profile
+                    <button class="btn btn-primary btn-xs pull-right">Edit Profile</button>
+                  </li>
+                  <li class="list-group-item text-right"><span class="pull-left"><strong class="">Joined</strong></span> 2.13.2014</li>
+                  <li class="list-group-item text-right"><span class="pull-left"><strong class="">Last seen</strong></span> Yesterday</li>
+                      <li class="list-group-item text-right"><span class="pull-left"><strong class="">Real name</strong></span> Joseph
+                          Doe</li>
+                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Role: </strong></span> Pet Sitter
 
-                          <div role="alert" class="alert alert-primary alert-icon alert-dismissible">
-                    <div class="icon"><span class="s7-check"></span></div>
-                    <div class="message">
-                      <button type="button" data-dismiss="alert" class="close"><span class="s7-close"></span></button>This is simple  <strong>alert box</strong>
+                        </li>
+              </ul>
+             <div class="panel panel-default">
+               <div class="panel-heading">Insured / Bonded?
 
-                    </div>
+                  </div>
+                  <div class="panel-body"><i style="color:green" class="fa fa-check-square"></i> Yes, I am insured and bonded.
+
+                  </div>
+              </div>
+              <div class="panel panel-default">
+                  <div class="panel-heading">Website <i class="fa fa-link fa-1x"></i>
+
+                  </div>
+                  <div class="panel-body"><a href="#" class="">demo.com</a>
+
+                  </div>
+              </div>
+
+              <ul class="list-group">
+                  <li class="list-group-item text-muted">Activity <i class="fa fa-dashboard fa-1x"></i>
+
+                  </li>
+                  <li class="list-group-item text-right"><span class="pull-left"><strong class="">Shares</strong></span> 125</li>
+                  <li class="list-group-item text-right"><span class="pull-left"><strong class="">Likes</strong></span> 13</li>
+                      <li class="list-group-item text-right"><span class="pull-left"><strong class="">Posts</strong></span> 37</li>
+                          <li class="list-group-item text-right"><span class="pull-left"><strong class="">Followers</strong></span> 78</li>
+              </ul>
+
+          </div>
+          <!--/col-3-->
+          <div class="col-sm-9" style="" contenteditable="false">
+              <div class="panel panel-default">
+                  <div class="panel-heading">Edit Profile</div>
+                  <div class="panel-body">
+
+                    <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label class="col-lg-3 control-label">First name:</label>
+          <div class="col-lg-8">
+            <input class="form-control" value="Jane" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-3 control-label">Last name:</label>
+          <div class="col-lg-8">
+            <input class="form-control" value="Bishop" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-3 control-label">Company:</label>
+          <div class="col-lg-8">
+            <input class="form-control" value="" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-3 control-label">Email:</label>
+          <div class="col-lg-8">
+            <input class="form-control" value="janesemail@gmail.com" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-3 control-label">Time Zone:</label>
+          <div class="col-lg-8">
+            <div class="ui-select">
+              <select id="user_time_zone" class="form-control">
+                <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                <option value="Alaska">(GMT-09:00) Alaska</option>
+                <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+                <option value="Arizona">(GMT-07:00) Arizona</option>
+                <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+                <option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
+                <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+                <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Username:</label>
+          <div class="col-md-8">
+            <input class="form-control" value="janeuser" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Password:</label>
+          <div class="col-md-8">
+            <input class="form-control" value="11111122333" type="password">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-3 control-label">Confirm password:</label>
+          <div class="col-md-8">
+            <input class="form-control" value="11111122333" type="password">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-3 control-label"></label>
+          <div class="col-md-8">
+            <input class="btn btn-primary" value="Save Changes" type="button">
+            <span></span>
+            <input class="btn btn-default" value="Cancel" type="reset">
+          </div>
+        </div>
+      </form>
+
+                  </div>
+              </div>
+              <div class="panel panel-default target">
+                  <div class="panel-heading" contenteditable="false">Shopping History</div>
+                  <div class="panel-body">
+                    <div class="row">
+  				<div class="col-md-4">
+  					<div class="thumbnail">
+  						<img alt="300x200" src="http://lorempixel.com/600/200/people">
+  						<div class="caption">
+  							<h3>
+  								Rover
+  							</h3>
+  							<p>
+  								Lorem ipsum dolor sit amet
+  							</p>
+  							<p>
+
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-md-4">
+  					<div class="thumbnail">
+  						<img alt="300x200" src="http://lorempixel.com/600/200/city">
+  						<div class="caption">
+  							<h3>
+  								Marmaduke
+  							</h3>
+  							<p>
+  								Lorem ipsum dolor sit amet
+  							</p>
+  							<p>
+
+  							</p>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-md-4">
+  					<div class="thumbnail">
+  						<img alt="300x200" src="http://lorempixel.com/600/200/sports">
+  						<div class="caption">
+  							<h3>
+  								Rocky
+  							</h3>
+  							<p>
+  								Lorem ipsum dolor sit amet
+  							</p>
+  							<p>
+
+  							</p>
+  						</div>
                   </div>
 
-                          <div class="form-container mar-b15">
-                            <div class="form-panel-title-box">
-                                <h4 class="form-panel-title">Search Customer With Phone or Name or Id</h4>
-                                <button class="btn btn-default btn-sm add-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i> Add New Customer</button>
-                            </div>
+              </div>
 
-                   <div class="form-box">
-                     <form>
-                       <div class="row class">
-                         <div class="col-md-6">
-                             <div class="form-group">
-                                 <label>Search Name Or Phone</label>
-                                 <input type="text" placeholder="Name Or Phone no." class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Search By Id</label>
-                                 <input type="text" placeholder="Please Enter Id" class="form-control">
-                               </div>
-                           </div>
+              </div>
 
-                           <div class="col-md-2">
-                             <div class="form-group">
-                               <label class="indent-label screen-only">seach btn</label>
-                                <button class="btn btn-primary btn-block">Search</button>
-                               </div>
-                           </div>
+          </div>
 
-                       </div>
-                     </form>
-                     <small class="text-muted">Total 3045 Customers</small>
-                   </div>
+      </div>
+             <div class="panel panel-default">
+                  <div class="panel-heading">Jhone Doe Bio</div>
+                  <div class="panel-body"> A long description about me.
 
-                   </div>
+                  </div>
+  </div></div>
 
 
-                   <div class="table-responsive">
-                                                    <table class="table table-hover table-bordered table-striped">
-                                                        <thead>
-                                                            <tr class="active color-wht">
-                                                                <th class="">Sr</th>
-                                                                <th>First Name</th>
-                                                                <th>Phone No.</th>
-                                                                <th width="120">Profile</th>
-                                                                <th>Orders</th>
-                                                                <th width="100">Reg. Date</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody class="rowlink">
-                                                            <tr class="cursor">
-                                                              <td>
-                                                                1
-                                                              </td>
-                                                                <td>
-                                                                    <a href="#" class="text-default caps">Dinesh</a>
-                                                                    <br>
-                                                                </td>
-                                                                <td>+91-986172233</td>
-                                                                <td><button class="btn btn-info btn-xs btn-block">Profile</button></td>
-                                                                <td width="150"><button class="btn btn-primary btn-xs">Orders</button>
-                                                                  <button class="btn btn-primary btn-xs">New</button>
-                                                                </td>
-                                                                <td>22-6-2017</td>
-                                                            </tr>
-
-                                                            <tr class="cursor">
-                                                              <td>
-                                                                2
-                                                              </td>
-                                                                <td>
-                                                                    <a href="#" class="text-default caps">Ravi</a>
-                                                                    <br>
-                                                                </td>
-                                                                <td>+91-986172233</td>
-                                                                <td><button class="btn btn-info btn-xs btn-block">Profile</button></td>
-                                                                <td width="150"><button class="btn btn-primary btn-xs">Orders</button>
-                                                                  <button class="btn btn-primary btn-xs">New</button>
-                                                                </td>
-                                                                <td>22-6-2017</td>
-                                                            </tr>
-
-                                                            <tr class="cursor">
-                                                              <td>
-                                                                3
-                                                              </td>
-                                                                <td>
-                                                                    <a href="#" class="text-default caps">Manish</a>
-                                                                    <br>
-                                                                </td>
-                                                                <td>+91-986172233</td>
-                                                                <td><button class="btn btn-info btn-xs btn-block">Profile</button></td>
-                                                                <td width="150"><button class="btn btn-primary btn-xs">Orders</button>
-                                                                  <button class="btn btn-primary btn-xs">New</button>
-                                                                </td>
-                                                                <td>22-6-2017</td>
-                                                            </tr>
-
-
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+              <div id="push"></div>
+          </div>
 
 
                         </div>
@@ -395,113 +473,39 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">New Customer Entry and Update</h4>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-        <div class="form-box">
-                     <form>
-                       <div class="row class">
-                         <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Registration Date</label>
-                                 <input type="date" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Name</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Phone</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-
-                       </div>
-
-                       <div class="row class">
-                         <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Alternate Phone</label>
-                                 <input type="date" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Email</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-
-
-
-                       </div>
-                       <hr>
-                       <div class="row class">
-                         <div class="col-md-12">
-                             <div class="form-group">
-                                 <label>Residential Address</label>
-                                 <textarea class="form-control" rows="4" cols="40"></textarea>
-                               </div>
-                           </div>
-                       </div>
-
-                       <div class="row class">
-                         <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>City</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>District</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-                           <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Postal Code</label>
-                                 <input type="text" pplaceholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-
-
-
-                       </div>
-
-                       <div class="row class">
-                         <div class="col-md-4">
-                             <div class="form-group">
-                                 <label>Pin code</label>
-                                 <input type="text" placeholder="Enter Detail" class="form-control">
-                               </div>
-                           </div>
-
-
-                       </div>
-
-                       <hr>
-
-                       <div class="row">
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <div class="am-checkbox">
-                                        <input id="check2" type="checkbox">
-                                        <label for="check2">Have Alternate Address </label>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                </div>
-
-                              
-                     </form>
-                   </div>
+        <div class="modal-form">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Full Name</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Email ID</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

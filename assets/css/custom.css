@@ -2084,3 +2084,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     margin: 0 auto;
 }
 }
+.profile-img img
+{
+width: 100%
+}
+.profile-box .panel-heading {
+    color: #141d2d;
+    background-color: #f5f7fb;
+    border-color: #dce5f7;
+    padding: 10px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.profile-box .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-color: #dce5f7;
+}
+.profile-box .panel-body {
+    padding: 15px 20px 20px;
+    border: none;
+}
