@@ -2177,3 +2177,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
 
     border-top: 1px solid #dce5f7;
 }
+.sub-menu > i{
+  display: none;
+}
+.nav-items .content ul {
+    padding: 0px;
+    padding-left: 32px;
+}
+.nav-items .content ul li {
+    color: #466cb4;
+}
+.nav-items .content ul li a {
+    color: #9ea9bb;
+    padding: 9px 0px;
+    display: block;
+    border-bottom: 1px solid #172131;
+    font-size: 12px;
+}

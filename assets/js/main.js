@@ -49,8 +49,7 @@ var App = function() {
                     var c = $(this).find("> a span").html(),
                         d = $(this).find("> ul"),
                         e = $("> li", d),
-                        c = $('<li class="title">' + c + "</li>"),
-                        f = $('<li class="nav-items"><div class="am-scroller nano"><div class="content nano-content"><ul></ul></div></div></li>');
+                        f = $('<li class="nav-items"><div class=""><div class="content "><ul></ul></div></div></li>');
                     !d.find("> li.title").length > 0 && (d.prepend(c), e.appendTo(f.find(".content ul")), f.appendTo(d))
                 })
             }

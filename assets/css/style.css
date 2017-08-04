@@ -7314,16 +7314,12 @@ button:focus {
 
 .am-left-sidebar .sidebar-elements>li>ul {
     display: none;
-    position: fixed;
-    left: 200px;
-    top: 0;
+
     height: 100%;
     background-color: #131c2b;
     z-index: 1031;
     padding: 0;
-    table-layout: fixed;
     list-style: none;
-    width: 280px;
 }
 .am-left-sidebar .sidebar-elements>li>ul.visible {
     display: table
@@ -7344,7 +7340,7 @@ button:focus {
 }
 
 .am-left-sidebar .sidebar-elements>li>ul>.nav-items {
-    display: table-row;
+
     height: 100%
 }
 
@@ -7403,7 +7399,7 @@ button:focus {
 
 
 .am-left-sidebar .sidebar-elements>li:hover>ul {
-    display: table
+    display: block;
 }
 
 .am-left-sidebar .sidebar-elements>li.active>a {
