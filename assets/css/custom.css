@@ -2134,6 +2134,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
 .sidebar-header {
     display: flex;
     align-items: center;
+    padding: 15px;
+    padding-bottom: 0px;
 }
 .profile-info {
     margin-left: 15px;
@@ -2170,8 +2172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     margin-bottom: 14px;
 }
 .m-sidebar {
-    border-right: 1px solid #dce5f7;
-    padding-right: 20px;
+
 }
 .m-sidebar hr {
 
@@ -2193,4 +2194,82 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     display: block;
     border-bottom: 1px solid #172131;
     font-size: 12px;
+}
+ul.info-list li i {
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 100%;
+    position: absolute;
+    left: 0;
+    width: 18px;
+    text-align: center;
+}
+ul.info-list li
+{
+   position: relative;
+   padding: 8px 0 8px 35px;
+}
+.profile-main {
+    border-left: 1px solid #dce5f7;
+    padding: 0px;
+}
+.profile-box {
+    border: 1px solid #dce5f7;
+}
+.profile-box .nav-tabs>li.active {
+    border-bottom: 3px solid #466cb4;
+    font-weight: 600;
+}
+.profile-box .nav-tabs {
+    background-color: transparent;
+    border-bottom-width: 0;
+    border-bottom: 1px solid #dce5f7;
+    display: flex;
+}
+.profile-box .nav-tabs>li {
+    margin-right: 2px;
+    flex: 1;
+}
+.pmb-block {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.dl-horizontal dt {
+    text-align: left;
+}
+.p-l-30 {
+    padding-left: 30px!important;
+}
+.pmb-block .pmbb-header h2 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #141d2d;
+}
+.pmb-block .pmbb-header h2 i {
+    margin-right: 7px;
+    color: #141d2d;
+}
+.profile-box
+{
+
+}
+.profile-box .table>tbody>tr>td, .profile-box .table>thead>tr>th {
+    padding: 17px 15px !important;
+    vertical-align: middle !important;
+    border-top: 1px solid #ddd;
+    font-weight: 500;
+}
+.profile-box .table h6 {
+    margin-top: 0px !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.profile-box .table>thead>tr>th {
+    font-weight: 600;
+    font-size: 13px;
+    background-color: transparent !important;
 }
