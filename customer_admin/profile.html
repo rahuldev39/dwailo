@@ -316,8 +316,9 @@
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#one"  role="tab" data-toggle="tab">About</a></li>
     <li role="presentation"><a href="#two"  role="tab" data-toggle="tab">Edit</a></li>
-    <li role="presentation"><a href="#three"  role="tab" data-toggle="tab">Orders</a></li>
-    <li role="presentation"><a href="#four"  role="tab" data-toggle="tab">WishList</a></li>
+    <li role="presentation"><a href="#three"  role="tab" data-toggle="tab">Address</a></li>
+    <li role="presentation"><a href="#four"  role="tab" data-toggle="tab">Orders</a></li>
+    <li role="presentation"><a href="#five"  role="tab" data-toggle="tab">WishList</a></li>
   </ul>
 
   <!-- Tab panes -->
@@ -490,7 +491,78 @@
 
           </div>
       </div></div>
-    <div role="tabpanel" class="tab-pane" id="three">
+      <div role="tabpanel" class="tab-pane" id="three">
+        <form >
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-company">Company</label>
+                <input class="form-control" type="text" id="account-company" value="Bets Company Ltd.">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-country">Country</label>
+                <select class="form-control" id="account-country">
+                  <option>Choose country</option>
+                  <option>Australia</option>
+                  <option>Canada</option>
+                  <option>France</option>
+                  <option>Germany</option>
+                  <option>Switzerland</option>
+                  <option selected="">India</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-city">City</label>
+                <select class="form-control" id="account-city">
+                  <option>Choose city</option>
+                  <option>Amsterdam</option>
+                  <option>Berlin</option>
+                  <option>Geneve</option>
+                  <option selected="">Haryana</option>
+                  <option>Paris</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-zip">ZIP Code</label>
+                <input class="form-control" type="text" id="account-zip" required="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-address1">Address 1</label>
+                <input class="form-control" type="text" id="account-address1" required="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="account-address2">Address 2</label>
+                <input class="form-control" type="text" id="account-address2">
+              </div>
+            </div>
+          </div>
+
+              <div class="col-12 padding-top-1x">
+                <h4>Shipping Address</h4>
+                <hr class="padding-bottom-1x">
+                <div class="am-checkbox">
+                                        <input id="check2" type="checkbox" checked>
+                                        <label for="check2">Same as Contact Address</label>
+                                      </div>
+                <hr class="margin-top-1x margin-bottom-1x">
+                <div class="text-right">
+                  <button class="btn btn-primary margin-bottom-none" type="button" data-toast="" data-toast-position="topRight" data-toast-type="success" data-toast-icon="icon-circle-check" data-toast-title="Success!" data-toast-message="Your address updated successfuly.">Update Address</button>
+                </div>
+              </div>
+            </form>
+      </div>
+    <div role="tabpanel" class="tab-pane" id="four">
       <div class="table-responsive">
               <table class="table   margin-bottom-none">
                 <thead>
@@ -549,7 +621,7 @@
               </table>
             </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="four">
+    <div role="tabpanel" class="tab-pane" id="five">
       <div class="table-responsive">
                                     <table class="table ">
                                         <thead>
