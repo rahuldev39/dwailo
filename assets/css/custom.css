@@ -643,7 +643,6 @@ div.section>div>input {
   background-size: cover;
 }
 .checkout-box .table {
-    margin-top: 33px;
     margin-bottom: 0px;
 }
 .grand-total strong {
@@ -2317,3 +2316,52 @@ ul.info-list li
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
     border-color: #dce5f7;
 }
+h5.regular {
+  margin-top: 0px
+}
+.add-address-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 62px;
+    border: 2px solid #466cb4;
+    font-size: 14px;
+    color: #466cb4 !important;
+    background-color: #ffffff;
+}
+.add-address-btn i{
+  margin-right: 10px
+}
+.checkout-box {
+    border: 1px solid #dadada;
+    margin-top: 33px;
+}
+.checkout-box-header {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #466cb4;
+    color: white;
+}
+.boxed-view {
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding-right: 17px;
+}
+.boxed-view i {
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #e7ecf5;
+    color: #141d2d;
+    border-right: 1px solid #d0d0d0;
+}
+.card-wrapper
+{
+  margin-bottom: 20px;
+  margin-top: 20px
+}
+.card-block {
+    padding: 20px;
+    border-top: 1px solid #dce5f7;
+}
+.cart-content
