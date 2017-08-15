@@ -1802,7 +1802,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466cb4', end
     display: flex;
 }
 .case-form {
-    padding: 0px 59px;
+    padding: 0px 0px;
 }
 .m-top-20 {
     margin-top: 20px;
@@ -2364,4 +2364,43 @@ h5.regular {
     padding: 20px;
     border-top: 1px solid #dce5f7;
 }
-.cart-content
+.product-detail-modal {
+    position: relative;
+    background-color: #f7f7f7;
+    border: 3px solid #ffb610;
+}
+.product-detail-modal .close {
+    position: absolute;
+    right: -11px;
+    top: -13px;
+    height: 28px;
+    width: 28px;
+    background-color: #ffb610;
+    border-radius: 50%;
+    z-index: 1000;
+    border: 4px solid #ffffff;
+    font-size: 17px;
+    opacity: 1;
+    color: #ffffff;
+    text-shadow: none;
+}
+.product-detail-modal .item-photo img {
+    width: 100%;
+    border: 0px !important;
+    border-right: 3px solid #e8e8e8 !important;
+}
+.detail-modal-info {
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.detail-modal-info .add-cart-box {
+    padding: 14px;
+    background-color: #f1f1f1;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.detail-modal-info .add-cart-box .section {
+    margin-bottom: 0px;
+}
