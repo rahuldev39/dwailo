@@ -2404,3 +2404,15 @@ h5.regular {
 .detail-modal-info .add-cart-box .section {
     margin-bottom: 0px;
 }
+
+.checkout-complete .card {
+    border: 4px dashed #e8e8e8;
+    padding: 50px 15px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.checkout-complete .card h3 {
+    margin-top: 0px;
+    margin-bottom: 23px;
+    font-weight: 700;
+}
