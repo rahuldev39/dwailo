@@ -2416,3 +2416,18 @@ h5.regular {
     margin-bottom: 23px;
     font-weight: 700;
 }
+
+.doc-modal.doctor-block {
+    padding: 0px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+.doc-modal .locality{
+  margin-right: 30px
+
+}
+.doc-modal .doc-img {
+    width: 107px;
+}
