@@ -2431,3 +2431,34 @@ h5.regular {
 .doc-modal .doc-img {
     width: 107px;
 }
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 5px 13px;
+    margin-bottom: 15px;
+    background-color: #e8edf6;
+    border: 1px solid #c8d3e9;
+}
+.filter-container label {
+    min-width: 67px;
+    margin-bottom: 0px;
+}
+.filter-container select {
+    width: 120px;
+}
+.edit-link {
+    color: white;
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 1px 17px;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.15);
+    opacity: .8
+}
+.edit-link:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    opacity: 1;
+}
