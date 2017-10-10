@@ -2462,3 +2462,111 @@ h5.regular {
     color: white;
     opacity: 1;
 }
+.loyality-container{
+  background-image: url(../img/slide_bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.loyality-lead {
+    margin-top: 0px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.loyality-container {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.loyality-banner .madicine-img {
+    max-width: 231px;
+}
+.loyality-banner h4 {
+    font-size: 32px;
+    line-height: 47px;
+    margin-bottom: 13px;
+}
+.loyality-banner h4 b {
+    color: #ffb73c;
+}
+.loyality-banner p {
+    font-size: 19px;
+    color: #ffb73c;
+    margin-bottom: 37px;
+}
+.loyality-banner {
+    max-width: 1036px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 30px 15px;
+    margin-bottom: 60px;
+}
+.coin-type {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #272727;
+    border-radius: 4px;
+    min-height: 185px;
+    margin-bottom: 15px
+}
+.coin-type h4 {
+    margin: 0px;
+    display: inline-block;
+    background-color: #ffb73c;
+    padding: 11px;
+    margin-top: -16px;
+    margin-bottom: 11px;
+    border-radius: 8px;
+}
+.coin-type p {
+    color: #f39d16;
+    margin-bottom: 0px;
+}
+.coin-type ul {
+    list-style-type: none;
+    padding: 15px;
+    padding-top: 0px;
+}
+.coin-type li {
+    margin-top: 13px;
+}
+.coin-type-box{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.fb-box {
+
+  max-width: 500px;
+  margin: 0 auto;
+    border: 7px dashed white;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.fb-box-inner {
+    background-color: #ffb849;
+    padding: 20px;
+    display: flex;
+}
+.fb-box h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 7px #da7f00;
+}
+.fb-box p {
+    font-size: 19px;
+    color: #1b4b77;
+}
+.coin-img img {
+    width: 92px;
+}
+.condition-box{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.condition-box ul{
+list-style-type: none;
+padding: 0px
+}
+.condition-box ul li{
+  margin-bottom: 15px;
+  font-size: 14px
+
+}
